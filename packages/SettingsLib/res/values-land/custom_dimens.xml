@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Lockscreen Shortcuts -->
+    <dimen name="phone_height">210dp</dimen>
+    <dimen name="phone_width">420dp</dimen>
+
+</resources>
