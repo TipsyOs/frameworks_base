@@ -761,7 +761,7 @@
     <string name="notification_tap_again">Touch again to open</string>
 
     <!-- Shows when people have pressed the unlock icon to explain how to unlock. [CHAR LIMIT=60] -->
-    <string name="keyguard_unlock">Swipe up to unlock</string>
+    <string name="keyguard_unlock">Bottoms Up To Get Tipsy</string>
 
     <!-- Shows when people have clicked on the phone icon [CHAR LIMIT=60] -->
     <string name="phone_hint">Swipe from icon for phone</string>
