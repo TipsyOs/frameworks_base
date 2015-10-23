@@ -29,4 +29,7 @@
     <java-symbol type="integer" name="config_longPressOnMenuBehavior" />
     <java-symbol type="integer" name="config_longPressOnAppSwitchBehavior" />
 
+    <!-- Config IME switcher -->
+    <java-symbol type="bool" name="config_show_IMESwitcher" />
+
 </resources>
