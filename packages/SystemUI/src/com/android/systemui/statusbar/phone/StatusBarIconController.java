@@ -285,7 +285,7 @@ public class StatusBarIconController implements Tunable {
         if (clockLocation == 0 && mClock != null) {
             mClock.setVisibility(visible ? (showClock ? View.VISIBLE : View.GONE) : View.GONE);
         }
-        if (clockLocation == 1 && mCclock != null) {
+      else  if (clockLocation == 1 && mCclock != null) {
             mCclock.setVisibility(visible ? (showClock ? View.VISIBLE : View.GONE) : View.GONE);
         }
     }
