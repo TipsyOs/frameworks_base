@@ -3899,8 +3899,7 @@ public final class Settings {
             RINGTONE,
             LOCK_TO_APP_ENABLED,
             NOTIFICATION_SOUND,
-            WIFI_AUTO_CONNECT_TYPE
-            NOTIFICATION_LIGHT_SCREEN_ON,
+            WIFI_AUTO_CONNECT_TYPE,
             STATUS_BAR_BATTERY_STYLE,
             STATUS_BAR_SHOW_BATTERY_PERCENT,
         };
