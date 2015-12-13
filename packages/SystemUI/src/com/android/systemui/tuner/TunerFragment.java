@@ -100,6 +100,13 @@ public class TunerFragment extends PreferenceFragment {
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        registerPrefs(getPreferenceScreen());
+        MetricsLogger.visibility(getContext(), MetricsLogger.TUNER, true);
+     }
+
+    @Override
     public void onPause() {
         super.onPause();
         getContext().getContentResolver().unregisterContentObserver(mSettingObserver);
@@ -160,6 +167,11 @@ public class TunerFragment extends PreferenceFragment {
     private final class SettingObserver extends ContentObserver {
         public SettingObserver() {
             super(new Handler());
+        }
+
+       @Override
+        public void onChange(boolean selfChange, Uri uri, int userId) {
+            super.onChange(selfChange, uri, userId);
         }
     }
 }
